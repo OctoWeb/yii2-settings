@@ -1,0 +1,22 @@
+{
+    "name": "octoweb/yii2-settings",
+    "description": "Module to rule your yandex metrika counters.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"," yandex metrika"],
+    "license": "MIT",
+	"version":"1.0.0",
+    "authors": [
+        {
+            "name": "Octo Web",
+            "email": "admin@octo-web.ru"
+        }
+    ],
+    "require": {
+        "octoweb/yii2-grid-view-sort": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "octoweb\\settings\\": ""
+        }
+    }
+}
