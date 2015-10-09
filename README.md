@@ -9,6 +9,11 @@ php composer.phar require --prefer-dist octoweb/yii2-settings "*"
 ```
 "octoweb/yii2-settings": "*"
 ```
+Запуск миграции
+```php
+yii migrate/up --migrationPath=@vendor/octoweb/yii2-settings/migrations --migrationTable=tbl_setting_migrations
+```
+.
 
 backend
 -------
